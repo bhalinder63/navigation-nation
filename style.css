@@ -93,19 +93,19 @@ nav ul li a:hover::before {
   opacity: 1;
 }
 
-nav li:nth-last-of-type(1) {
+nav li:first-child {
   background-color: var(--navColor1);
 }
-nav li:nth-last-of-type(2) {
+nav li:nth-child(2) {
   background-color: var(--navColor2);
 }
-nav li:nth-last-of-type(3) {
+nav li:nth-child(3) {
   background-color: var(--navColor3);
 }
-nav li:nth-last-of-type(4) {
+nav li:nth-child(4) {
   background-color: var(--navColor4);
 }
-nav li:nth-last-of-type(5) {
+nav li:nth-child(5) {
   background-color: var(--navColor5);
 }
 
